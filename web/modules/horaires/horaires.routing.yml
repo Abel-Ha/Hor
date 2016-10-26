@@ -1,0 +1,9 @@
+horaires.horairespage:
+    path: /horaires
+    defaults:
+        _controller: '\Drupal\horaires\Controller\HorairesPageController::customPage'
+        _title: 'Horaires page'
+    requirements:
+        _permission: 'access content'
+        #_access: true
+            

@@ -1,0 +1,4 @@
+name: Horaires
+type: module
+description: Guess what! Install its own library
+core: 8.x

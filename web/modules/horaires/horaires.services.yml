@@ -1,0 +1,14 @@
+parameters:
+    ixxi:
+        common:
+            enabled: true
+
+services:
+    ixxi.common:
+        class: Ixxi\Common\Schedule\WsivScheduleAdapter
+        arguments: ['appli-sv002028.info.ratp:8580', '@logger.channel.php']
+        tags:
+            - { name: ixxi_common_lib }
+
+
+
